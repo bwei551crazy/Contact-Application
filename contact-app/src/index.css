@@ -1,0 +1,66 @@
+/* .App {
+  border: 1px solid black;
+} */
+
+/* Box surrounnding the contact info*/
+.card-restriction .card-body {
+  border: 1px solid black;
+  border-radius: 10px;
+  border-color:brown;
+  background-color:antiquewhite;
+  /* margin-bottom: 1vh; 
+  margin-top: 1vh;
+  margin-left: 20vw;
+  margin-right: 20vw; */
+
+  
+ 
+}
+
+.card-restriction {
+  border: 1px solid blue;
+  
+  
+}
+/*Contact Name */
+.card-restriction .card-title {
+  /* text-align : left; */
+  padding-top: 1vh;
+  padding-left: 1vw;
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+/*Contact description */
+.card-body .card-text{
+  text-align: center; 
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+ 
+}
+.container {
+  border-radius: 20px;
+  padding: 1vh;
+  
+}
+
+.container .Contact-title {
+  text-align: center;
+  margin: 10px;
+  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: blue;
+}
+
+.row {
+  
+  max-width: 100vw;
+  border-radius: 20px;
+  padding: 2vh;
+  border : 5px solid black;
+  
+}
+
