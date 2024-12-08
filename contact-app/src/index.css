@@ -3,15 +3,15 @@
 } */
 
 /* Box surrounnding the contact info*/
-.card-restriction .card-body {
+/* .card-restriction .card-body {
   border: 1px solid black;
   border-radius: 10px;
   border-color:brown;
   background-color:antiquewhite;
-  /* margin-bottom: 1vh; 
+  margin-bottom: 1vh; 
   margin-top: 1vh;
   margin-left: 20vw;
-  margin-right: 20vw; */
+  margin-right: 20vw;
 
   
  
@@ -23,17 +23,17 @@
   
 }
 /*Contact Name */
-.card-restriction .card-title {
+/* .card-restriction .card-title {
   /* text-align : left; */
-  padding-top: 1vh;
+  /* padding-top: 1vh;
   padding-left: 1vw;
   text-align: left;
   font-family: 'Times New Roman', Times, serif;
   
-}
+} */ 
 
 /*Contact description */
-.card-body .card-text{
+/* .card-body .card-text{
   text-align: center; 
   padding-left: 1vw;
   padding-right: 1vw;
@@ -62,5 +62,72 @@
   padding: 2vh;
   border : 5px solid black;
   
+} */ 
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+
 }
 
+.Contact-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 3rem;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: rgb(166, 15, 50);
+}
+
+/* row */
+.row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 20px; /* Spacing between items */
+  border: 3px solid rgb(189, 16, 91);
+  border-radius: 10px;
+  padding-inline: 25%;
+  padding-block: 2%;
+  justify-content: center;
+}
+
+/* Contents within the card */
+.card-restriction {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #ffffff;
+  padding: 16px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  word-wrap: break-word;
+}
+
+.card-restriction:hover {
+  transform: scale(1.05); /* Add a hover effect */
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+  
+}
+
+.email {
+  color: #b32020;
+}
+
+.phone {
+  color: #b32020;
+}
+
+.website {
+  color: #b32020;
+}

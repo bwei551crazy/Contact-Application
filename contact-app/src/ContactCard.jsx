@@ -5,11 +5,11 @@ const ContactCard = ({ contact }) => {
       <div className="card-body">
         <h5 className="card-title">{contact.name}</h5>
         <p className="card-text">
-        <strong>Email:</strong> {contact.email}
+        <strong className="email"> Email:</strong> {contact.email}
         <br />
-        <strong>Phone:</strong> {contact.phone}
+        <strong className="phone"> Phone:</strong> {contact.phone}
         <br />
-        <strong>Website:</strong> <a href={`https://${contact.website}`} target="_blank" rel="noopener noreferrer">{contact.website}</a>
+        <strong className="website"> Website:</strong> <a href={`https://${contact.website}`} target="_blank" rel="noopener noreferrer">{contact.website}</a>
         </p>
       </div>
     </div>
